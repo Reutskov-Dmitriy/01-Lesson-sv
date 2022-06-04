@@ -91,19 +91,23 @@ body {
   font-size: 18px;
   display: flex;
 }
-.header {
+.wrapper {
   width: 300px;
   height: 100%;
   background-color: rgb(193, 204, 204);
 }
 
-.header__imgWrap {
+.section-listGray {
+  background-color: rgb(193, 204, 204);
+  line-height: 1.5;
+}
+.section-listGray__imgWrap {
   width: 300px;
   height: 300px;
 }
 
 /* контейнер картинки */
-.header__img {
+.section-listGray__img {
   width: 250px;
   height: 250px;
   background: url("../assets/images/photos/photo.jpg") 0 0/100% auto no-repeat;
@@ -112,21 +116,18 @@ body {
   margin: 25px;
 }
 /* Список секций на сером фоне */
-.section-listGray {
-  width: 300px;
-  height: 100%;
-  background-color: rgb(193, 204, 204);
-  line-height: 1.5;
-}
 
 .sizeImg {
   width: 25px;
   height: 25px;
 }
 
+.section-listGray-contactsWrap {
+  max-height: calc(100%-300px);
+}
 .section-listGray-contacts {
   margin-top: 30px;
-  padding: 0px 0px 0px 50px;
+  padding: 0px 0px 0px 30px;
 }
 
 .section-listGray-contacts :nth-child(2) {
@@ -144,9 +145,9 @@ body {
   margin: 10px 5px 0px 0px;
   width: 15px;
   height: 15px;
-}
+} */
 
-.section-listGray__email::marker {
+/* .section-listGray__email::marker {
   content: url("../assets/images/icons/765232_mail_media_social_icon.svg");
   margin: 0px 0px 0px 0px;
   width: 5px;
@@ -162,62 +163,60 @@ body {
 .section-listGray-skills {
   margin-top: 50px;
   line-height: 2;
+  padding: 0px 0px 0px 30px;
 }
 
 .section-listGray-skills li {
   list-style-type: disc;
 }
 .section-listGray-languages {
-  margin: 80px 0px 15px 0px;
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 10px 30px;
+  height: 200px;
 }
 .section-listGray-languages li {
   list-style-type: disc;
 }
 
-.main {
-  padding: 0px 0px 30px 0px;
-}
 .container {
   padding: 0px 0px 0px 30px;
 }
 
 .main__text {
   height: 300px;
-  width: 100%;
-  margin: center;
+  max-width: calc(100%-300px);
+  margin: 0px 0px 40px 30px;
   text-align: left;
-  padding: 30px;
 }
 .main__language {
   text-align: end;
-  margin: 0px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .main__name {
   font-size: 44px;
-  margin: 0px 0px 15px 0px;
+  margin: 10px 0px 15px 0px;
 }
 
 /* Список секций на белом фоне */
 .section-list {
-  height: 100%;
-  width: 976px;
-  padding: 30px;
+  max-height: calc(100%-300px);
+  width: 100%;
+  padding: 0px 0px 0px 30px;
   line-height: 1.5;
 }
 .section-list__projects {
-  margin-bottom: 50px;
+  margin: 0px 0px 50px 0px;
 }
-.section-list-experience {
-  margin-top: 50px;
-}
+
 .section-list__education {
   margin-top: 50px;
+  line-height: 1.5;
 }
 .section-list__education li {
   list-style-type: disc;
 }
 
 .about {
-  margin: 30px 0px 30px 0px;
+  margin: 50px 0px 0px 0px;
 }
