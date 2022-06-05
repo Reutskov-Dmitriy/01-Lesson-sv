@@ -133,26 +133,7 @@ body {
 .section-listGray-contacts :nth-child(2) {
   list-style-type: disc;
 }
-/* .section-listGray__local::marker {
-  content: url("../assets/images/icons/2560339_location_media_network_social_icon.svg");
 
-  width: 15px;
-  height: 15px;
-} */
-
-/* .section-listGray__phone::marker {
-  content: url("../assets/images/icons/2560339_location_media_network_social_icon.svg");
-  margin: 10px 5px 0px 0px;
-  width: 15px;
-  height: 15px;
-} */
-
-/* .section-listGray__email::marker {
-  content: url("../assets/images/icons/765232_mail_media_social_icon.svg");
-  margin: 0px 0px 0px 0px;
-  width: 5px;
-  height: 5px;
-} */
 .section-listGray-contacts :nth-child(3) {
   list-style-type: disc;
 }
